@@ -30,7 +30,7 @@ a {
 .card-white {
   background: white;
   padding: 30px;
-  width: 500px;
+  width: 550px;
   margin: 20px auto;
   box-shadow: 1px 1px 2px #B3B3B3;
   border-radius: 4px;
@@ -59,4 +59,23 @@ a {
   display: inline-block;
   padding: 20px;
 
+}
+
+#sidebar {
+  position: fixed;
+  background: #3F72AF;
+  width: 115px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0px;
+}
+
+.menu {
+  font-size: 35px;
+  padding: 35px;
+}
+
+#page-content {
+  margin-left: 300px;
 }

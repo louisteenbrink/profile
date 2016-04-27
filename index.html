@@ -14,6 +14,28 @@
   </head>
   <body>
     <!-- Your content -->
+    <div id="sidebar">
+      <table class="menu">
+        <tr>
+          <td>
+            <a href="#summary"><i class="fa fa-home"></i></a><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#favorite-movies"><i class="fa fa-video-camera"></i></a><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#help"><i class="fa fa-angle-down"></i></a><br><br>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="page-content">
+    <div id="summary"></div>
     <div class="card-white text-center">
     <img src="images/louis.jpg" alt="Louis" class="img-circle">
     <h1>Louis Steenbrink</h1>
@@ -22,8 +44,8 @@
     <a href="http://www.lewagon.com" class="btn-blue">See for yourself</a>
     </div>
 
-    <div class="card-white text-center list-inline">
-     <ul>
+    <div class="card-white text-center">
+     <ul class="list-inline">
       <li>
         <a href="https://www.facebook.com/louis.stk" target="_blank">
           <i class="fa fa-facebook"></i> Facebook
@@ -42,11 +64,11 @@
     </ul>
     </div>
 
+    <div id="favorite-movies"></div>
     <div class="card-white text-center">
       <h2>My favorite movies</h2>
-
         <h3>Gladiator <i class="fa fa-bank"></i></h3>
-        <iframe src="//giphy.com/embed/a6ppZr7ob8L6w" width="480" height="250"  frameBorder="0" class="giphy-embed" allowFullScreen><!-- </iframe><p><a href="http://giphy.com/gifs/gladiator-a6ppZr7ob8L6w"></a></p>
+        <iframe src="//giphy.com/embed/a6ppZr7ob8L6w" width="480" height="250"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe><!-- </iframe><p><a href="http://giphy.com/gifs/gladiator-a6ppZr7ob8L6w"></a></p>
         img src="images/gladiator.jpg" alt="gladiator" class="img-movies"> -->
         <p>When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.</p>
 
@@ -60,11 +82,12 @@
         <p>A behind-the-scenes look at the annual Penguin World Surfing Championship, and its newest participant, up-and-comer Cody Maverick.</p>
     </div>
 
-      <div class="card-white text-center list-inline">
+      <div class="card-white text-center">
       <h2>About this page</h2>
+      <div id="help"></div>
       <p>This page has been coded during the <a href="http://lewagon.com" target="_blank">Full Stack Program @ Le Wagon.</a> It's an amazing experience!</p>
 
-      <ul>
+      <ul class="list-inline">
         <li>
           <a href="#">
           <i class="fa fa-heart"></i>
@@ -82,5 +105,6 @@
         </li>
       </ul>
       </div>
+    </div>
   </body>
 </html>
