@@ -1,5 +1,3 @@
-/*font & colors #F9F7F7;*/
-
 body {
   background: #EDEFED;
   font-family: Open Sans;
@@ -30,7 +28,7 @@ a {
 .card-white {
   background: white;
   padding: 30px;
-  width: 550px;
+  width: 480px;
   margin: 20px auto;
   box-shadow: 1px 1px 2px #B3B3B3;
   border-radius: 4px;
@@ -77,5 +75,33 @@ a {
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 110px;
+}
+/*
+#left {
+  width: 35%;
+  float: left;
+  min-height: 600px;
+}*/
+
+.left_container {
+  float: left;
+  width: 87px;
+}
+
+#right {
+  width: 45%;
+  float: right;
+  min-height: 600px;
+}
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  position: absolute;
+  padding: 0px 600px 10px 28px;
+  margin-left: 110px;
+  text-align: center;
 }
